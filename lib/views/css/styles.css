@@ -35,9 +35,18 @@ table {
     background-color: #dddddd;
   }
 
+   /* .navbar-brand {
+    color:grey !important;
+  } */
   .navbar-nav>li{
-    border-right: 1px solid lightblue;
+    border-right: 1px solid grey;
+    padding:1em;
   }
+
+  /* .nav-item>a{
+    color:grey !important;
+  }  */
+
   .navbar-nav>li:last-child{
     border: none;
  }
