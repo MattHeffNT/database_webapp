@@ -21,7 +21,7 @@
 
   <!-- Navigation -->
 
-<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+<nav class="navbar navbar-expand-sm navbar-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation" style="color:white;">menu</button>
@@ -128,7 +128,7 @@ else if(isset($_GET['admin'])){
       <div class="container">
         <h1 class="display-3">Darwin Art Company</h1>
       <br>
-      <hr>
+      <hr style="width:25%;">
         <div class="card-columns">
       <div class="card">
         <img class="card-img-top" src=".\lib\views\Images\header-1.jpg" alt="">
