@@ -1,0 +1,47 @@
+#hero-image {
+
+    background-size:cover;
+    color:#3D4849;
+}
+
+.display-3{
+    text-align: center;
+}
+
+.lead {
+  text-align: center;
+  margin-top:1.5em;
+}
+
+.card-columns {
+  margin-top:3.5em;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .navbar-nav>li{
+    border-right: 1px solid lightblue;
+  }
+  .navbar-nav>li:last-child{
+    border: none;
+ }
+
+ .fa.fa-shopping-cart {
+   padding-left:2em;
+ }
