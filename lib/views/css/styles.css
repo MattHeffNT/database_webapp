@@ -43,6 +43,10 @@ table {
     padding:1em;
   }
 
+  .navbar-brand {
+    display:none;
+  }
+
   /* .nav-item>a{
     color:grey !important;
   }  */
