@@ -24,7 +24,13 @@
    echo "</tr> <tr>";
 
    foreach($list[0] as $key  => $art) {
-    echo " <td> {$art} </td>";    
+    
+    // if the column header is price, concat the dollar sign on to the decimal value
+    if ($key == "Price") {
+      echo "<td> $"."{$art} </td>";
+    }  else {
+      echo "<td> {$art} </td>";
+    }  
    }
    echo '<td><a name="" id="" class="btn btn-primary" href="#" role="button">Buy</a></td>';
    echo "</tr>";
